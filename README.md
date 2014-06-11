@@ -6,16 +6,16 @@ This project allows you to use a simple commandline tool to determine the domina
 Usage
 -----
 
-```
+```bash
 python videoColors.py [urlToVideo]
 ```
 
 Setup
-_____
+-----
 
 This project currently requires ffmpeg and opencv in order to extract the frames from videos.
 
 License
 -------
 
-This project is released under the [MIT License][LICENSE].
+This project is released under the [MIT License](LICENSE).
