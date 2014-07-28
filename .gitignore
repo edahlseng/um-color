@@ -1,0 +1,9 @@
+# System files
+.DS_STORE
+
+# generated files
+*.pyc
+*.o
+*.so
+*_wrap.cxx
+ColorCalculations.py

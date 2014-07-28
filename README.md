@@ -13,7 +13,7 @@ python videoColors.py [urlToVideo]
 Setup
 -----
 
-This project currently requires ffmpeg and opencv in order to extract the frames from videos.
+This project currently requires opencv in order to extract video frames.
 
 License
 -------
