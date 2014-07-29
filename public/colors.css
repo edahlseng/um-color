@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	background: black;
+	width: 100%;
+	padding: 0;
+}
+
+header {
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	font-size: 40px;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #333;
+	background: #1b1b1b;
+	color: #ccc;
+}
+
+p {
+	display: inline;
+}
+
+button {
+	position: absolute;
+	display: inline-block;
+	right: 10px;
+	width: 150px;
+	height: 100%;
+	border-style: none;
+	outline: none;
+	font-size: 20px;
+	background: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.test {
+	display: inline-block;
+	margin: 0;
+	margin: 5px 0 0 5px;
+	border-style: solid;
+	border-width: 2px;
+	background: red;
+	float: left; /* get rid of extra spaces */
+}
