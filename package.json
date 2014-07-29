@@ -1,0 +1,24 @@
+{
+  "name": "um-color",
+  "version": "0.0.0",
+  "description": "VideoColors ===========",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edahlseng/um-color.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edahlseng/um-color/issues"
+  },
+  "homepage": "https://github.com/edahlseng/um-color"
+}

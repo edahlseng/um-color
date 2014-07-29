@@ -10,6 +10,8 @@ app.get('/', function (request, response) {
 // serve up static resources
 app.use(express.static(__dirname + '/public'));
 
-var server = app.listen(3000, function () {
+var port = process.argv[2] || 3000;
+
+var server = app.listen(port, function () {
 	console.log('Listening on port %d', server.address().port);
 });
